@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cairo-font;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+
+body{
+    font-family: cairo-font !important;
+    direction: rtl;
+}
+
+header{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header .brand{
+    width: auto;
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 50px auto;
+}
+
+header .brand::after{
+    position: absolute;
+    content: " ";
+    background-color: #454545;
+    height: 5px;
+    width: 10rem;
+    transform: translateX(50%);
+    margin-top: 20px;
+}
+
+header .brand figure{
+    margin-bottom: 0px;
+}
+
+header .heading-page h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 75px;
+    color: #fff;
+}
+
+header .heading-page p{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 25px;
+    color: #acacac;
+}
+
+header .count-down{
+    width: 60%;
+    margin: 60px auto;
+    padding: 30px;
+}
+
+header .counter{
+    display: inline-block;
+    margin: auto 15px;
+}
+
+header .count-amount{
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffce00;
+}
+header .count-period{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+header .send-notfication p{
+    font-size: 18px;
+    color: #fff;
+}
+
+header .input-group{
+    width: 30%;
+    margin: auto;
+    transform: translateY(30%);
+}
+
+header .send-notfication .input-group button{
+    border-radius: 0;
+    background-color: #ffce00;
+    padding: .5rem 1.5rem;
+}
+header .send-notfication .input-group input {
+    border-radius: 0;
+    font-size: 18px;
+    font-family: ar-font;
+    color: #e6e6e6;
+    border-width: 2px;
+    border-color: #e6e6e6;
+    height: auto;
+}
+
+header .send-notfication .input-group button:focus, 
+header .send-notfication .input-group input:focus {
+    border-color: #e6e6e6;
+    box-shadow: none;
+}
+
+section.features {
+    padding: 100px 0;
+    position: relative;
+    text-align: right;
+}
+
+section.features h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #555;
+}
+
+section.features .row .d-flex{
+    border: 4px solid #fafafa;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+    position: relative;
+    max-height: 190px;
+}
+
+section.features .row .flex-grow-1 h5{
+    font-size: 24px;
+    color: #555;
+}
+section.features .row .flex-grow-1 p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #9c9c9c;
+}
+
+section.features div[class*="col-"]:nth-child(even) {
+    text-align: left;
+    direction: ltr;
+}
+
+footer{
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer .footer-notfication {
+    background-color: rgba(255, 204, 0, 0.7);
+    padding: 60px 0;
+}
+
+footer .footer-notfication h3 {
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto 30px;
+}
+  
+
+footer .input-group {
+    width: 30%;
+    margin: auto;
+}
+
+footer .input-group input {
+    border-radius: 0;
+    font-size: 18px;
+    font-family: ar-font;
+    color: #c7c7c7;
+    border-color: #fff;
+    height: auto;
+}
+
+footer .input-group button {
+    border-radius: 0;
+    background-color: #393939;
+    padding: .5rem 1.5rem;
+}
+
+footer .input-group input:focus{
+    box-shadow: 0 0 0;
+    border-color: #fff;
+} 
+
+footer .input-group button:focus {
+    box-shadow: 0 0 0;
+    border-color: transparent;
+}
+
+footer .social-media {
+    background-color: rgba(28, 28, 28, 0.7);
+    padding: 60px 0 10px;
+    color: #fff;
+}
+
+footer .social-media h3{
+    font-size: 30px;
+    margin: 0 auto 30px;
+}
+
+footer .social-media .list-inline a{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+footer li a.facebook:hover {
+    background-color: #3b5999;
+  }
+  
+footer  li a.twitter:hover {
+    background-color: #55acee;
+}
+
+footer li a.linkedin:hover {
+    background-color: #0077B5;
+}
+
+footer li a.instagram:hover {
+    background-color: #e4405f;
+}
+
+footer .social-media hr {
+    width: 25%;
+    margin: 50px auto 20px;
+    
+}
+
+footer .social-media p a i{
+    color: #ffce00;
+    margin-left: 5px;
+}
+
+footer .social-media p a{
+    color: #b4b4b4;
+    text-decoration: none;
+}
