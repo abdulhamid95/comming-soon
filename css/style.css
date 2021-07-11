@@ -248,3 +248,13 @@ footer .social-media p a{
     color: #b4b4b4;
     text-decoration: none;
 }
+
+@media (max-width: 992px){
+    .input-group {
+        width: 70% !important;
+    }
+
+    header .heading-page p {
+        width: 60%;
+    }
+}
