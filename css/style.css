@@ -14,6 +14,9 @@ body{
     direction: rtl;
 }
 
+
+/************** Header **************/
+
 header{
     background-image: url(../images/header-bg.jpg);
     background-size: cover;
@@ -112,6 +115,9 @@ header .send-notfication .input-group input:focus {
     box-shadow: none;
 }
 
+
+/************** FEATURES **************/
+
 section.features {
     padding: 100px 0;
     position: relative;
@@ -146,6 +152,9 @@ section.features div[class*="col-"]:nth-child(even) {
     text-align: left;
     direction: ltr;
 }
+
+
+/************** FOOTER **************/
 
 footer{
     background-image: url(../images/footer-bg.jpg);
